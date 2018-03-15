@@ -35,18 +35,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  position: relative;
 }
 .main {
-  float: left;
-  width: 95%;
+  position: absolute;
+  left: 100px;
   background-color: #eff2f7;
   height: 100%;
   overflow: auto;
 }
 .leftbox{
-  float: left;
-  width: 5%;
+  position: absolute;
+  left: 0;
+  width: 100px;
   height: 100%;
   overflow: auto;
+  z-index: 1;
 }
 </style>
